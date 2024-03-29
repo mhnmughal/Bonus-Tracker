@@ -1,0 +1,14 @@
+﻿ProductName,Barcode,PharmacyGLNNumber,PharmacyName,Date,OrderNo,Town,Province,Quantity,Bonus,Price,Warehouse,AutoApprove,ManualApprove,AutoCut,Highlight,Note
+A,1,100,Pharma 1,02/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,10,2,1000,xxxxxxx,2, , , ,Max MF Value is  3 so  2  is Less than 3.
+A,1,200,Pharma 2,03/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,10,3,1000,xxxxxxx,3, , , ,Max MF Value is  3 and bonus value is 3.
+A,1,300,Pharma 3,03/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,11,3,1000,xxxxxxx,3, , , ,Max MF Value is  3 and bonus value is 3.
+A,1,400,Pharma 4,03/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,20,6,1000,xxxxxxx,6, , , ,Max MF Value is  6 and bonus value is 6.
+A,1,500,Pharma 5,04/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,10,5,1000,xxxxxxx,3, ,2,!,Max MF Value is  3 and bonus value is 5.(!)
+A,1,600,Pharma 6,10/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,10,5,1000,xxxxxxx,5, , , ,Max MF Value is  5 and bonus value is 5.
+A,1,700,Pharma 7,04/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,10,6,1000,xxxxxxx,6, , , ,Max MF Value is  5 and bonus value is 5.
+B,2,700,Pharma 7,03/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,3,1,1500,xxxxxxx,1, , , ,Max MF Value is  1 and bonus value is 1.
+A,1,800,Pharma 8,04/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,10,6,1000,xxxxxxx,3, ,3,!,Max MF Value is  3 and bonus value is 6.(!)
+B,2,800,Pharma 8,03/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,2,0,1500,xxxxxxx,0, , , ,Bonus= 0 
+B,2,900,Pharma 9,03/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,105,50,1500,xxxxxxx,50, , , ,Max MF Value is  50 and bonus value is 50.
+B,2,1000,Pharma 10,03/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,20,10,1500,xxxxxxx,6, ,4,!,Max MF Value is  6 and bonus value is 10.(!)
+A,1,1100,Pharma 11,02/01/2024,xxxxxxx,xxxxxxx,xxxxxxx,10,2,800,xxxxxxx,0, ,2,!!, (!!) (two exclamation marks) added to HIGHLIGHT field; as there's no campaign for this *price* for product A

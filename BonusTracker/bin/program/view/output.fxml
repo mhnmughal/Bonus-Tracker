@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1300.0" styleClass="gray-background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="program.view.outputContoller">
+   <children>
+      <TableView fx:id="tableView" layoutX="104.0" layoutY="119.0" prefHeight="510.0" prefWidth="1113.0" />
+      <Label layoutX="489.0" layoutY="61.0" text="Bonus Tracker">
+         <font>
+            <Font name="Times New Roman Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="977.0" layoutY="747.0" mnemonicParsing="false" onAction="#handleExitButtonAction" prefHeight="50.0" prefWidth="119.0" styleClass="radius" stylesheets="@style.css" text="Close ">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
